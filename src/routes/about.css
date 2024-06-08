@@ -1,0 +1,86 @@
+.aboutPage{
+    width: 90%;
+    /* background:; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 450px;
+    margin: 10px auto;
+}
+.history{
+    text-align: center;
+    color: #fff;
+}
+.history > p{
+    font-weight: 300;
+    font-size: 2vw;
+}
+.aboutPage > img{
+    width: 100%;
+    aspect-ratio: initial;
+    /* margin: 10px auto; */
+}
+
+.faculty{
+    background-color: #fff;
+    color: #000;
+    width: 150px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 5px 0px;
+    transition: 0.5s;
+}
+.faculty > img{
+    width: 90%;
+    aspect-ratio: initial;
+    border-radius: 8px;
+}
+.nandlink > h6{
+    margin: 5px 0px;
+    padding: 0%;
+}
+.nandlink{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.nandlink{
+    margin: 0px auto;
+}
+.coordinators{
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.faculties{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+
+.faculty:hover{
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width:600px){
+    .faculty{
+        width: 100px;
+    }
+    .nandlink > h6{
+        font-size: 8px;
+    }
+    .history > p{
+        font-size: medium;
+        text-align: justify;
+    }
+}
